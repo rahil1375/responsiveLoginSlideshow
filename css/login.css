@@ -1,0 +1,202 @@
+
+body{
+    width: 100%;
+    margin: 0;
+    background-image: linear-gradient(to right top, #00005a, #03056c, #060d7f, #081692, #071ea6, #052db4, #033bc2, #0049d0, #005cd7, #006edd, #147fe0, #378fe1);
+}
+.main-wrapper{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.slider-wrapper{
+    width: 60%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.login-wrapper{
+    width: 40%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.slider-contain{
+    background-color:#f8f8ff;
+    width:fit-content;
+    height: fit-content;
+    margin-right: .9em;
+    border-radius: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5em 2em 5em 2em;
+}
+
+ .carousel{
+    width: 32em;
+    height: 25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+ }
+.img-slide{
+    border-radius: 2em;
+    width: 32em;
+    height: 25em;
+}
+.login-contain{
+    background-color:#f8f8ff;
+    width:fit-content;
+    height: fit-content;
+    margin-left: .9em;
+    border-radius: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 4em 4em 4em 4em;
+}
+
+@media screen and (max-width:600px)
+{
+    .slider-wrapper{
+        display: none;
+    }
+    .login-wrapper{
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        padding: 0;
+    }
+    .login-contain{
+        margin: 0;
+        width: fit-content;
+        height: fit-content;
+        padding: 2.5em;
+    }
+    .login-wrapper{
+        align-items:center;
+        justify-content: center;
+
+    }
+}
+
+@media screen and (min-width: 767px)
+{
+    .slider-wrapper{
+        width: 60%;
+        background-color:transparent;
+        
+        
+    }
+    .login-wrapper{
+        width: 40%;
+        background-color:transparent;
+       
+        
+    }
+    .login-contain{
+        padding: 2em 1em 2em 1em;
+        width: fit-content;
+        height: fit-content;
+
+    }
+    .slider-contain{
+       
+        width:fit-content;
+    height: fit-content;
+    margin-right: .9em;
+    border-radius: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5em 1em 5em 1em;
+        
+    }
+    .carousel{
+        width: 23em;
+    height: 20em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+     }
+    .img-slide{
+        border-radius: 2em;
+        width: 23em;
+    height: 20em;
+    }
+} 
+@media screen and (min-width: 1024px){
+    .main-wrapper{
+        display: flex;
+        height: 100vh;
+        width: 100%;
+    }
+    .slider-wrapper{
+        width: 60%;
+        background-color:transparent;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        
+    }
+    .login-wrapper{
+        width: 40%;
+        background-color:transparent;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        
+    }
+    
+    .slider-contain{
+        background-color:#f8f8ff;
+        width:fit-content;
+        height: fit-content;
+        margin-right: .9em;
+        border-radius: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5em 2em 5em 2em;
+    }
+    
+     .carousel{
+        width: 32em;
+        height: 25em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+     }
+    .img-slide{
+        border-radius: 2em;
+        width: 32em;
+        height: 25em;
+    }
+    .login-contain{
+        background-color:#f8f8ff;
+        width:fit-content;
+        height: fit-content;
+        margin-left: .9em;
+        border-radius: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1em;
+        padding: 4em 4em 4em 4em;
+    }
+}
+
+
+
