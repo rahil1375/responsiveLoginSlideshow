@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir.eot');
+    src: url('Vazir.eot?#iefix') format('embedded-opentype'),
+         url('Vazir.woff2') format('woff2'),
+         url('Vazir.woff') format('woff'),
+         url('Vazir.ttf') format('truetype');
+    font-weight: normal;
+  }
 
 body{
     width: 100%;
@@ -5,6 +14,7 @@ body{
     background-image:url("../image/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family:    Vazir ;
 }
 .main-wrapper{
     display: flex;
@@ -13,7 +23,7 @@ body{
 }
 .slider-wrapper{
     width: 60%;
-    background-color: black;
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -96,7 +106,7 @@ body{
     }
 }
 
-@media screen and (min-width: 767px)
+@media screen and (min-width: 667px)
 {
     .main-wrapper{
         gap:1em
@@ -413,6 +423,76 @@ body{
 }
 
 
+@media screen and (min-width: 600px) and (min-height:300px) and (max-height:375px)
+{
+    .main-wrapper{
+        gap: .5em;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .login-wrapper{
+        padding: 0;
+        margin: 0;
+    }
+    .slider-wrapper{
+        padding: 0;
+        margin: 0;
+        width: 60%;
+    }
+    .login-contain{
+        height: 97svh;
+        margin: 0;
+        font-size: 1.7svw;
+    }
+    .slider-contain{
+        height: 97svh;
+        margin: 0;
+        font-size: 2svw;
+    }
+    .carousel{
+        height: 61svh;
+        width: 47svw;
+    }
+    .img-slide{
+        height: 61svh;
+        width: 47svw;
+    }
+}
+@media screen and (min-width: 719px) and (min-height:344px) and (max-height:480px)
+{
+    .main-wrapper{
+        gap: .5em;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .login-wrapper{
+        padding: 0;
+        margin: 0;
+    }
+    .slider-wrapper{
+        padding: 0;
+        margin: 0;
+        width: 60%;
+    }
+    .login-contain{
+        height: 97svh;
+        margin: 0;
+        font-size: 1.1svw;
+    }
+    .slider-contain{
+        height: 97svh;
+        margin: 0;
+        font-size: 1.3svw;
+    }
+    .carousel{
+        height: 61svh;
+    }
+    .img-slide{
+        height: 61svh;
+    }
+}
 
 
 
